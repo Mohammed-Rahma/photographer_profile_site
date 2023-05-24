@@ -1,0 +1,170 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 3em;
+    font-weight:normal;
+    margin: 80px 0 40px ;
+}
+header h2{
+    font-weight:normal;
+    font-size: 1rem;
+}
+
+.sec{
+    padding: 0px 200px ;
+    margin-bottom: 50px;
+}
+
+.sec h3{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.sec hr{
+    width: 250px;
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+}
+.my p {
+    color: #999;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+.progress{
+    height: 25px;
+    background-color: #fff;
+}
+.progress div{
+    height: 100%;
+    background-color: #999;
+}
+.stats{
+    background-color: #fff;
+    display: flex;
+    margin: 50px 0;
+    padding: 50px 0;
+    color: #000;
+    /* justify-content: space-around; */
+
+}
+.stats > div {
+    flex: 1;
+    text-align: center;
+}
+.stats strong{
+    display: block;
+}
+
+.btn{
+    padding: 10px 20px;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+
+
+}
+
+.sec2 {
+    margin: 50px 200px;
+} 
+.table-container {
+    display: flex; /* تعيين العناصر على شكل صف واحد */
+    justify-content: space-between; /* توزيع الجدولين بشكل متساوٍ بين الحواف */
+   text-align: center;
+   
+  }
+  
+.table1, .table2 {
+    width: calc(50% - 10px); /* عرض الجدولين مع مسافة بينهما */
+  }
+
+table td{
+    padding: 16px 0;
+}
+
+.table-container tbody {
+    border-color: #999;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 50px;
+}
+table , th , td ,tr{
+    border: 0.5px none #999;
+}
+
+.head{
+    padding: 32px 0;
+    background-color: #999;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+strong{
+    display: block;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+table button{
+    border: none;
+    padding: 12px 24px!important;
+    margin: 10PX 0;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+table .sign{
+    background-color: #f1f1f1;
+}
+
+.color-change-button {
+    background-color: white;
+    color: black; 
+    transition: background-color 0.3s, color 0.3s; /* تحويل سلس للألوان */
+    cursor: pointer; /* تغيير شكل المؤشر */
+  }
+  
+  .color-change-button:hover {
+    background-color: black;
+    color: white; 
+  }
+
+.sec2 h3{
+    font-size: 1.5rem;
+    font-weight: normal;
+} 
+
+.img1,.img2,img{
+    border-radius: 100%;
+}
+.img1{
+    display: flex;
+    padding: 30px 0;
+    padding-right: 20px;
+    font-size: 1rem;
+    color: #757575!important;
+}
+
+.img2{
+    display: flex;
+    padding-right: 20px;
+    font-size: 1rem;
+    color: #757575!important;
+}
+
+.story div p {
+    padding-left: 15px;
+}
